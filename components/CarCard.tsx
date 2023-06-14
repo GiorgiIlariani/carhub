@@ -14,6 +14,7 @@ interface CarCardProps {
 
 const CarCard = ({ car }: CarCardProps) => {
   const [isLiked, setIsLiked] = useState(false);
+  console.log(isLiked);
   const { city_mpg, year, make, model, transmission, drive } = car;
 
   const [isOpen, setIsOpen] = useState(false);
