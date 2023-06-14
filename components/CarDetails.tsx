@@ -6,7 +6,7 @@ import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { CarProps } from "@/types";
 
-const imaginApiKey = process.env.NEXT_PUBLIC_IMAGIN_API_KEY;
+const imaginApiKey = "hrjavascript-mastery";
 
 const CarDetailsImage = ({ car, angle }: { car: CarProps; angle: string }) => (
   <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
